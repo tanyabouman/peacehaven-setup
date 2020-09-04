@@ -1,0 +1,5 @@
+---
+title: Support Us
+verseText: "\"As we have therefore opportunity, let us do good unto all men, especially unto them who are of the household of faith\""
+verseRef: Galatians 6:10
+---

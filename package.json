@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "devDependencies": {
+        "hugo-bin": "^0.98.0",
+        "lighthouse": "^10.4.0"
+    },
+    "scripts": {
+        "start": "hugo -D server",
+        "build": "hugo -d public",
+        "pretty": "html-beautify --end-with-newline --file 'layouts/**/*.html'"
+    }
+}

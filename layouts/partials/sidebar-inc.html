@@ -1,0 +1,59 @@
+<!-- SIDEBAR -->
+
+<!-- https://www.w3.org/WAI/tutorials/page-structure/regions/#accessupport -->
+<div id="sidebar" role="complementary">
+
+    <h1>Bible Quote</h1>
+    <p>
+    {{ with .Params.verseText }}
+    <span class="verse">{{ . }}
+    </span>
+    {{ else }}
+    {{ warnf "Missing verseText for %s page" $.Title }}
+    {{ end }}
+    <br>
+    {{ with .Params.verseRef }}
+    {{ . }}
+    {{ else }}
+    {{ warnf "Missing verseRef for %s page" $.Title }}
+    {{ end }}
+    </p>
+
+    <p>
+    <div style="border-top:1px solid #CCC; border-bottom:1px solid #CCC; padding:6px 0px 0px 0px; margin-bottom:6px;">
+        {{ partial "event_inc" . }}
+    </div>
+    <div></div>
+
+    <!--Begin YouTube Embed-->
+    <p>
+        <iframe title="Peace Haven 2017 AGM Colin Postma" tabindex="-1" width="100%" height="150" src="https://www.youtube.com/embed/cRT-HUnEGys" style="min-width: 150px;" frameborder="0" scrolling="no">
+        </iframe>
+        <!--End YouTube Embed-->
+
+
+    <p>
+        <!--Begin SermonAudio Embed-->
+        <iframe title="Peace Haven 2014 AGM David Lipsy" tabindex="-1" width="100%" height="150" src="https://embed.sermonaudio.com/player/a/1114142252571/" style="min-width: 150px;" frameborder="0" scrolling="no"></iframe>
+        <!--End SermonAudio Embed-->
+
+
+    <p>
+        <!--Begin SermonAudio Embed-->
+        <iframe title="Peace Haven 2012 AGM Kara Dedert" tabindex="-1" width="100%" height="150" src="https://embed.sermonaudio.com/player/a/1117121859171/" style="min-width: 150px;" frameborder="0" scrolling="no"></iframe>
+        <!--End SermonAudio Embed-->
+
+    <p>
+        <iframe title="Peace Haven 2011 AGM Ben Short" tabindex="-1" width="100%" height="150" src="https://embed.sermonaudio.com/player/a/119111553157/" style="min-width: 50px;" frameborder="0" scrolling="no"></iframe>
+
+        <!--
+<h1>THE SPIRITUAL DEVELOPMENT AND FUTURE PROSPECTS OF DEVELOPMENTALLY CHALLENGED CHILDREN by Rev. David Lipsy</h1>
+<p> <a href="http://www.sermonaudio.com/sermoninfo.asp?SID=1114142252571" target="_blank";>Listen to speech on Sermonaudio</a>.
+</p>
+
+<h1>HOW GOD USES DISABILITY by Mrs. Kara Dedert</h1>
+<p> <a href="http://www.sermonaudio.com/sermoninfo.asp?SID=1117121859171" target="_blank";>Listen to speech on Sermonaudio</a>.
+</p>
+-->
+
+</div>

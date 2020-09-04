@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="description" content="Peace Haven Free Reformed Association | Supporting individuals with disabilities and their families">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow">
+
+    <title>Support us | Peace Haven</title>
+
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        <!--
+        .style1 {
+            color: #FFFFFF
+        }
+
+        -->
+    </style>
+</head>
+
+<body>
+    <div id="main_wrap">
+
+        {{ partial "header" }}
+
+        <div id="navigation">
+            {{ partial "navigation" . }}
+        </div>
+
+
+
+        <div id="content_wrap"><!-- START BODY BLOCK -->
+
+
+
+            <div id="left_clm"><!-- START LEFT COLOUMN -->
+                <div class="left_clm_item_wrap">
+
+                    {{ partial "sidebar-inc" . }}
+
+                </div>
+            </div><!-- END LEFT COLOUMN -->
+
+
+
+            <div id="right_clm" role="main"><!-- START RIGHT COLOUMN -->
+
+                <div class="right_clm_item_wrap">
+
+
+
+
+                    <div style="border-bottom:1px dotted #999999; margin-bottom:10px;">
+
+                        <h1>How you can help</h1>
+                        <ul>
+                            <li>If you have special interests or skills and a heart for Christian service, we would love to hear from you.</li>
+                            <li>Check the <a href="/services">services page</a> and consider how you can help</li>
+                            <li>Remember Peace Haven in your prayers
+                        </ul>
+
+                        <h2>Volunteer</h2>
+                        <ul>
+                            <li>Providing supports to persons living at Peace Haven to be contributing members of their community, enjoy recreational activities and to find work placements.</li>
+                            <li>On call tradesmen to help out with maintenance work.</li>
+                            <li>Assist at our Day support program at “The Farm” with social and recreational activities.</li>
+                            <li>Assist with special events.</li>
+                        </ul>
+
+                        <p>For more information and how you can be involved, please contact the Director of Peace Haven.</p>
+                        <h2>Financial Support</h2>
+
+                        <ul>
+                            <li>Send an e-transfer.
+                                For a donation receipt to be issued, please  include your address information in the message line.
+                            <li>Make a cheque
+                            <li>Donate through your church (see your deacons)
+                        </ul>
+
+                        All donations are tax deductible.
+                        </p>
+
+                    </div>
+
+
+                    <div class="-right_clm_left_block">
+                        {{ partial "location" . }}
+
+                        <p>&nbsp;</p>
+
+                    </div>
+                    <!-- END COLOUMN -->
+
+                </div><!-- END RIGHT COLOUMN WRAP -->
+
+                <div style="float:left; clear:both;"></div>
+            </div><!-- END RIGHT COLOUMN -->
+
+
+        </div><!-- END BODY BLOCK -->
+    </div>
+
+
+    {{ partial "footer2" }}
+
+</body>
+
+{{ end }}

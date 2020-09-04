@@ -1,0 +1,10 @@
+<!-- NAVIGATION INCLUDE -->
+<ul id="nav" role="navigation">
+    <li><a href="/" {{ if (eq "Home" .Title) }} class="active hor_nav_first" {{ end }}> HOME </a></li>
+    <li><a href="/services" {{ if (eq "Services" .Title) }} class="active hor_nav_first" {{ end }}>SERVICES</a></li>
+    <li><a href="/gallery" {{ if (eq "Gallery" .Title) }} class="active hor_nav_first" {{ end }}>GALLERY</a></li>
+    <li><a href="/support_us" {{ if (eq "Support Us" .Title) }} class="active hor_nav_first" {{ end }}>SUPPORT US</a></li>
+    <li><a href="/events" {{ if (eq "Events" .Title) }} class="active hor_nav_first" {{ end }}>EVENTS</a></li>
+    <li><a href="/resources" {{ if (eq "Resources" .Title) }} class="active hor_nav_first" {{ end }}>RESOURCES</a></li>
+    <li><a href="/contact" {{ if (eq "Contact" .Title) }} class="active hor_nav_first" {{ end }}>CONTACT</a></li>
+</ul>

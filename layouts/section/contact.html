@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="description" content="Peace Haven Free Reformed Association | Supporting individuals with disabilities and their families">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow">
+
+    <title>Contact | Peace Haven</title>
+
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        <!--
+        .style1 {
+            color: #FFFFFF
+        }
+
+        -->
+    </style>
+</head>
+
+<body>
+    <div id="main_wrap">
+
+        {{ partial "header" }}
+
+        <div id="navigation">
+
+            {{ partial "navigation" . }}
+
+        </div>
+
+        <div id="content_wrap"><!-- START BODY BLOCK -->
+
+            <div id="left_clm"><!-- START LEFT COLOUMN -->
+                <div class="left_clm_item_wrap">
+
+                    {{ partial "sidebar-inc" . }}
+
+                </div>
+            </div><!-- END LEFT COLOUMN -->
+
+            <div id="right_clm" role="main"><!-- START RIGHT COLOUMN -->
+
+                <div class="right_clm_item_wrap">
+
+                    <div style="border-bottom:1px dotted #999999; margin-bottom:10px;">
+
+                        <h1>Touching Lives </h1>
+                        <ul>
+                            <li>Contact us by email</li>
+                        </ul>
+
+                        <p>&nbsp;</p>
+                        </p>
+
+                    </div>
+
+                    <div class="-right_clm_left_block">
+                        {{ partial "location" . }}
+
+                        <p>&nbsp;</p>
+
+                    </div>
+                    <!-- END COLOUMN -->
+
+                </div><!-- END RIGHT COLOUMN WRAP -->
+
+                <div style="float:left; clear:both;"></div>
+            </div><!-- END RIGHT COLOUMN -->
+
+
+        </div><!-- END BODY BLOCK -->
+    </div>
+
+    {{ partial "footer2" }}
+
+</body>
+
+{{ end }}

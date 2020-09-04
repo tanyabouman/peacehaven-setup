@@ -1,0 +1,470 @@
+/* CSS Document */
+/*body {
+background-color: #FFF;
+background: url(images/theme/bg_04.jpg) repeat-x 0px 205px;
+margin: 0px;
+padding: 0px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+line-height:18px;
+letter-spacing:.25px;
+color:#333333;
+}*/
+
+body {
+background-color: #FFF;
+background: url(images/theme/bg-2014-v1.jpg) repeat-x 0px 39px;
+margin: 0px;
+padding: 0px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+line-height:18px;
+letter-spacing:.25px;
+color:#333333;
+}
+	
+
+#main_wrap { 
+	margin-left:auto; 
+	margin-right:auto; 
+	margin-top:7px; 
+	position:relative; 
+	width:755px; 
+	display:block; 
+	padding: 0px; 
+	text-align:left; 
+	display:block; }
+
+
+/*#header 		{ display:block; border:1px solid #FFFFFF; height:200px; width:755px; background-image:url(images/theme/peacehaven_header_v3.jpg); background-position:top; background-repeat:no-repeat; float:left; }*/
+
+/*#header		{ display:block; border:1px solid #FFFFFF; height:328px; width:755px; background-image:url(images/theme/peacehaven_header_2014-v1.jpg); background-position:top; background-repeat:no-repeat; float:left; border:none; }*/
+
+#header1 { 
+	background-image: url(images/theme/peacehaven_headerpic_2016_v1.jpg); 
+	background-position: top;
+	background-repeat: no-repeat;
+  padding-top:214px;
+}
+
+#header2 {
+	background-image: url(images/theme/banner.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+  text-align: right;
+  color: white;
+  font-size: 15pt;
+  padding-top:50px;
+  padding-bottom:46px;
+}
+
+#navigation 	{ display:block; text-align:left; padding: 0px; margin: 0px; float:left; width: 755px; }
+
+#content_wrap 	{ display:block; float:left; clear:left; width:757px; background-color:#FFFFFF; }
+
+#footer 		{ display:block; width:755px; background-color:#993300; float:left; padding:0px; margin:0px;}
+
+#footer2 		{ display:block;width:755px;background-color:#16a216;float:left;padding:0px;margin-left:auto;margin-right:auto;margin-top:0px;position: relative;}
+
+#footer3 		{ display:block;
+              width: 100%; background-color:#1f377e;float:left; padding:0px;margin-left:auto; margin-right:auto;margin-top:0px; position: relative;}
+
+
+/*-- =============================================== NAVIGATION =============================================== --*/
+#nav {
+
+/* background-color:#16a216;  GREEN */
+/* background-color:#993300; BROWN */
+/* background-color:#4D85D2;  BLUE */
+background-color:#1f377e;  /* DARK BLUE */
+display: block;
+padding: 0px 0px 0px 12px;
+margin: 0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+text-align:left;
+float:left;
+width:743px;
+}
+
+#nav ul			{ margin:0px; padding:0px; background-repeat:repeat-x; background-position:top; width:775px;}
+
+
+#nav li			{ display: inline; margin: 0px 0px 0px 0px; padding: 0px;}
+#nav li a		{ padding:4px 15px; margin:2px 3px 0px 0px; color:#FFFFFF;
+	text-decoration:none;
+	float:left;
+-moz-border-radius: 3px 3px 0px 0px;
+-webkit-border-radius: 3px 3px 0px 0px;
+border-radius: 3px 3px 0px 0px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+
+#nav li .active	{
+/*text-decoration:none;*/
+background-color:#FFFFFF;
+color:#000000;
+font-weight:bold;
+
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+}
+
+#nav li a:hover	{
+/*text-decoration:none;*/
+/*color:#993300;  BROWN */
+color:#4D85D2; 
+background-color:#FFFFFF;
+/*line-height:1.1;*/
+
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+border-right:none;
+
+}
+
+.hor_nav_first 		{ border-left:1px solid #FFFFFF; }
+/*-- END NAVIGATION --*/
+
+.img_btm_4px 			{ margin-bottom:4px; }
+
+#left_clm 				{ width:220px; float:left; padding:4px; margin:0px; display:block;}
+
+.left_clm_item_wrap {
+display:block;
+/* background-image:url(images2/theme/content_bg_gradiant1.jpg); */
+background-repeat:repeat-x;
+background-position:top left;
+margin:0px;
+padding:20px 8px 6px 14px;
+}
+
+#right_clm {
+border-left:1px dotted #999999;
+float:left;
+width:526px;
+margin:0px;
+padding:0px;
+display:block;
+}
+
+.right_clm 					{ border-left:1px dotted #999999;float:left;width:526px;margin:0px;padding:0px;display:block;}
+
+.right_clm_item_wrap 			{
+display:block;
+/*background:url(images2/theme/content_bg_gradiant1.jpg) left repeat-x top;*/
+/* background-image:url(images2/theme/content_bg_gradiant1.jpg); */
+background-repeat:repeat-x;
+background-position:top left;
+
+margin:4px 4px;
+padding:20px 10px 6px 16px;
+width:492px;
+}
+
+
+.right_clm_left_block 		{ float:left; width:220px; display:block; }
+
+.right_clm_left_block2 		{ float:left; width:260px; display:block; }
+
+right_clm_left_blockwide 	{ float:left; width:270px; display:block; }
+
+right_clm_left_block_auto 	{ float:left; width:220px; display:block; }
+
+.right_clm_right_block 		{ float:right; width:220px; display:block; padding:0px; text-align:left;}
+.home_events 				{margin-left:0px; padding:0px; display:block; float:left; width:270px;}
+
+.right_clm_border_bottom 	{ border-bottom:1px dotted #999999; margin-bottom:10px; }
+
+/*-- FOOTER --*/
+.footer_nav		{ display:block; padding: 6px; margin: 0px; float:left; }
+
+.footer_nav li{
+border-right:1px solid white;
+display:inline;
+list-style:none;
+}
+
+.footer_nav li a{
+/*text-decoration:none;*/
+padding:6px;
+color:#FFFFFF;
+font-size:12px;
+
+}
+
+.footer_nav li a:hover{
+/*text-decoration:underline;*/
+color:#FFFFFF;
+font-size:12px;
+
+}
+
+
+/*-- END FOOTER --*/
+
+/*-- RIGHT COLOUMN LIST --*/
+
+.aboutus_pics 			{ width:477px;}
+.aboutus_pics img 		{ margin:10px 0px;}
+
+.list_right_v1 			{list-style:none; margin:0px; padding:10px 0; color:#666666; display:block;}
+
+.list_right_v1 li {
+list-style:none;
+/*background-image:url(images2/theme/list_doublearrow.gif);*/
+background-image:url(http://peacehaven.ca/images2/theme/list_doublearrow_blue.gif);
+background-repeat:no-repeat;
+background-position:0px 8px;
+margin:0px;
+padding: 4px 0px 4px 10px;
+}
+
+
+.list_contact_v1 {
+list-style:none;
+margin:0px;
+padding:3px 0 0 10px;
+color:#000000;
+display:block;
+}
+
+
+.list_contact_v1 li {
+list-style:none;
+/*background-image:url(images2/theme/list_doublearrow.gif);*/
+background-image:url(http://peacehaven.ca/images2/theme/list_doublearrow_blue.gif);
+background-repeat:no-repeat;
+background-position:0px 8px;
+margin:0px;
+padding: 2px 0px 2px 10px;
+
+}
+
+
+.advisory_name{
+font-weight:bold;
+font-style:italic;
+}
+
+
+.contact_heading 	{ font-size:14px; font-weight:bold; color:#993300;}
+.contacts 			{ font-size:11px; color:#333333;}
+
+
+/*-- RIGHT COLOUMN LIST --*/
+
+/*-- RIGHT COLOUMN LIST 2 --*/
+
+.list_right_v2 		{ list-style:none; margin:0px; padding:10px 0; color:#666666; display:block;}
+
+
+.list_right_v2 .v2 {
+list-style:none;
+/*background-image:url(images2/theme/list_doublearrow.gif);*/
+background-image:url(http://peacehaven.ca/images2/theme/sidenav_green.jpg);
+background-repeat:no-repeat;
+background-position:0px 4px;
+margin:0px;
+padding: 4px 0px 4px 20px;
+
+}
+
+/*-- RIGHT COLOUMN LIST 2--*/
+
+h1 {
+margin:0px;
+padding:0px;
+color:#993300;
+font-size:21px;
+display:block;
+line-height:normal;
+}
+
+h2 				{ margin:0px; padding:0px; color:#993300; font-size:18px; }
+h3 				{ margin:6px 0px; padding:0px; color:#993300; font-size:16px; }
+
+.developer_tag {
+display:block;
+float:right;
+width:300px;
+font-size:12px;
+color:#595959;
+text-align:right;
+padding:10px 20px 6px 0px;
+}
+
+.developer_tag a, .developer_tag a:link, .developer_tag a:visited {
+	color:#595959;
+	/*text-decoration:none;*/
+}
+.developer_tag a:hover { color:#F30;}
+
+
+
+.hor_rule1 			{ border-bottom:1px dotted #999999; height:10px; margin:0px 0px 10px 0px; width:480px;
+}
+
+.photos_directors 	{ margin:0px 14px 4px 0px; border:1px solid #CCCCCC;
+}
+
+/*-- PROGRAMS & SERVICES | OBJECTIVES --*/
+
+.objectives_item 	{ width:220px; display:block; float:left; margin:10px 0px 6px 10px;color:#333333;
+}
+
+.objectives_photo 	{ display:block; float:left; height:118px; background-color:#999999; width:220px;
+}
+
+.objectives_photo_wide { display:block; float:left; height:150px; width:450px;
+}
+
+.objectives_text 	{
+    display:block;
+    padding:10px;
+    float:left; width:200px;
+    /* background-image:url(images2/theme/content_bg_gradiant1.jpg); */
+    background-repeat:repeat-x;
+}
+
+.objectives_text_wide 	{
+    display:block;
+    padding:10px;
+    float:left;
+    width:430px;
+    /* background-image:url(images2/theme/content_bg_gradiant1.jpg); */
+    background-repeat:repeat-x;
+}
+
+
+/*-- PROGRAMS & SERVICES | COMMERCIAL --*/
+.commercial_item {
+display:block; width:460px; border:1px solid #CCCCCC; float:left; margin-bottom:10px;
+}
+
+.commercial_text {
+display:block;float:left; padding:8px;
+}
+
+.commercial_image {
+display:block; width:460px; border:1px solid #CCCCCC; float:left;
+}
+
+/*-- PARTNERS PAGE  --*/
+.listing {
+border-bottom:1px dotted #999999; margin-bottom:10px; text-align:left; display:block; float:left;
+padding:6px;
+}
+
+.listingtext {float:right; width:300px; display:block;}
+
+.listingphoto {float:left; width:145px; display:block;}
+
+
+
+
+
+
+/*-- RESOURCES NAVIGATION LINKS --*/
+
+.resourcelinks {
+margin-left: 0;
+padding-left: 0;
+/* white-space: nowrap; */
+
+}
+
+.resourcelinks li {
+display: inline;
+list-style-type: none;
+padding-right: 6px;
+padding-left: 6px;
+line-height: 20px;
+border-right:solid 1px #999999; 
+}
+
+
+.resourcelinks li a {
+color:#006600; 
+}
+
+.resourcelinks li a:hover {
+color:#333333; 
+}
+
+.resourcelinks li.first {
+padding-left: 0px;
+}
+
+.verse {
+font-size:13px;
+font-style:italic;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+/*
+EVENTS
+*/
+
+.contactwrap { display:block; float:left; width:494px; padding:2px 0px 4px 0px;}
+.town { width:110px; display:block; float:left; font-weight:bold; margin-right:8px;}
+.contactname { width:360px; display:block; float:left;}
+.clast { padding-bottom:14px;}
+
+/*-- NEWS & EVENTS  --*/
+
+.newsdate {
+color:#666666; font-size:10px;}
+
+.event { border-bottom: 1px double #CCC; padding-bottom:6px;}
+
+.eventlist { padding:0px; margin:0px;}
+.eventlist ul { list-style-image: url(images/lists/star.png); margin:0px 0px 14px 0px; padding-left:20px;}
+.eventlist ul li{ margin:6px 0px; font-size:12px;}
+.eventlist ul li a { font-size:15px;}
+
+.pigroastpic { background:url(images/theme/pigroast.jpg) top left no-repeat; width:180px; height:100px;}
+.pigroastevent 		{ margin:10px 0px;
+background-image:url(images/theme/pigroast.jpg);
+background-position:330px 0px;
+background-repeat: no-repeat;
+border-bottom: 1px solid #ABABAB;
+}
+
+.clm { width: 48%; float:left;}
+#body_events .clm { width:99%; float:left;}
+
+
+/* 
+Gallery things for embedding youtube video
+*/
+a {
+  /*text-decoration: none;*/
+  color: inherit;
+}
+
+.vid-wrapper {
+	     display: inline-block;
+	     position: relative;
+}
+
+.play-btn {
+	  color: rgba(0, 0, 0, 0.8);
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+}
+
+#vid-img:hover ~ .play-btn {
+	       color: #e62117;
+}

@@ -1,0 +1,11 @@
+baseURL = '/'
+languageCode = 'en-CA'
+title = 'Peace Haven'
+
+[params]
+  officeHours = "Tuesday & Wednesday 10am-2pm"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy"]

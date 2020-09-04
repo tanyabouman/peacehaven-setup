@@ -1,0 +1,20 @@
+<!-- START LOCATION INCLUDE -->
+<div class="right_clm_left_blockwide">
+    <div class="clm">
+        <h1>Office</h1>
+
+        <p>
+            Brantford, Ontario <br>
+        <p>Office Hours:<br>
+            {{ with .Site.Params.officeHours }}
+            {{ . }}
+            {{else}}
+                {{ warnf "Missing officeHours parameter"}}
+                {{end}}
+    </div>
+    <div class="clm">
+        <h1>Our Homes</h1>
+        <p>Peace Haven Homes <br>
+            Brantford, Ontario
+    </div>
+</div>
